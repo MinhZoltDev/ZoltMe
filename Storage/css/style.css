@@ -72,6 +72,7 @@ header >a:hover{
     display: block;
 }
 #slider{
+    top: 0;
     position: relative;
     width: 100%;
     height: 529px;
@@ -97,7 +98,7 @@ header >a:hover{
 }
 #slider .img-slide .img-desc{
     position: absolute;
-    padding: 15px 30px;
+    padding:0 30px;
     bottom: 50px;
     justify-items: center;
     left: 0;
@@ -410,6 +411,36 @@ footer{
   font-size: 3rem;
   color: white;
   cursor: pointer;
+}
+#news-section{
+    margin-top: 15px;
+    background: linear-gradient(320deg,rgba(11, 28, 79, 1) 1%, rgba(28, 22, 22, 1) 50%, rgba(25, 9, 31, 1) 100%);
+    background-position: center;
+
+
+}   
+#news-section .main-heading h2{
+    font-size: 6rem;
+    font-family:'BBH Sans Hegarty', sans-serif ;
+    color: transparent;
+    background-clip: text ;
+    background-image: linear-gradient(19deg,rgba(167, 20, 204, 1) 4%, rgba(55, 212, 186, 1) 50%, rgba(93, 83, 237, 1) 100%);
+ 
+}
+.new-list .news-img img{
+    margin-left: 50px;
+    height:400px;
+    
+}
+.new-list{
+    display: inline-block;
+}
+.new-list h3{
+    color:white;
+
+}
+.new-list p{
+    color: white;
 }
 
 @keyframes fill-3 {
